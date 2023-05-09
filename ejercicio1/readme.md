@@ -72,3 +72,22 @@ $ git commit -m "Version Inicial"
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 ejercicio1/readme.md
 
+Modificamos el archivo readme.md
+$ git add ejercicio1
+
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ejercicio1/readme.md
+
+$ git commit -m "Agrega solucion Primer Ejercicio"
+[master 6633aa1] Agrega solucion Primer Ejercicio
+ 1 file changed, 74 insertions(+)
+
+Si está seguro de agregar todos los cambios al siguiente commit, puede hacerlo asì:
+$ git add .
+
+Para mostrar el historial de commits que he realizado:
+$ git log
+
